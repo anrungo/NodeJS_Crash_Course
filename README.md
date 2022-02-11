@@ -24,3 +24,10 @@ NODE Modules
   },`
 
  `npm run dev`
+
+ For deployment:
+ - sign up for heroku.com
+ - you will need heroku cli: https://devcenter.heroku.com/articles/heroku-cli to download and install
+ - once installed, on the terminal or command prompt: heroku --version
+ - login through terminal: heroku login
+ 
