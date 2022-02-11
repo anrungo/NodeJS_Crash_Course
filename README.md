@@ -30,4 +30,19 @@ NODE Modules
  - you will need heroku cli: https://devcenter.heroku.com/articles/heroku-cli to download and install
  - once installed, on the terminal or command prompt: heroku --version
  - login through terminal: heroku login
- 
+ - using git for: git init, git add ., git commit -m "text"
+ - heroku create:
+ `Creating app... done, ⬢ peaceful-ravine-71664
+
+https://peaceful-ravine-71664.herokuapp.com/ | https://git.heroku.com/peaceful-ravine-71664.git`
+
+ - It's going to create a new app with a domain name
+ - And when you go back to dashboard on heroku you can see the app created
+ - Click on that and go to 'Deploy' tab
+ - We grab the comand as our reposotory: `heroku git:remote -a peaceful-ravine-71664`
+ - Copy and Paste that on terminal
+ - Now that it's added as repository: `set git remote heroku to https://git.heroku.com/peaceful-ravine-71664.git`
+ - Now we have to push to heroku master: `git push heroku master`
+ - Now you can go to heroku url or just do `heroku open` it open to new browser
+
+
